@@ -1,0 +1,25 @@
+{
+  "name": "actionz",
+  "version": "1.0.0",
+  "description": "Utility module for creating redux ducks.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiz290788/actionz.git"
+  },
+  "keywords": [
+    "redux",
+    "ducks",
+    "action-creator",
+    "reducer"
+  ],
+  "author": "Luiz Guilherme D'Abruzzo Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiz290788/actionz/issues"
+  },
+  "homepage": "https://github.com/luiz290788/actionz#readme"
+}
