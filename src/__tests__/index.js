@@ -1,6 +1,6 @@
 /* @flow */
 /* eslint-env jest */
-import { createAction, createReducer } from '../actionz';
+import { createAction, createReducer } from '../index';
 
 describe('createAction', () => {
   test('should return action creator', () => {
