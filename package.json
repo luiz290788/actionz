@@ -23,13 +23,12 @@
     "url": "https://github.com/luiz290788/actionz/issues"
   },
   "homepage": "https://github.com/luiz290788/actionz#readme",
-  "dependencies": {
-    "jest": "^19.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-es2015": "^6.24.0"
+    "babel-preset-es2015": "^6.24.0",
+    "jest": "^19.0.2"
   }
 }
