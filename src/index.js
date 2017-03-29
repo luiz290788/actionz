@@ -6,12 +6,8 @@ export const createAction = (type: string, payloadCreator: Function = defaultPay
   (...args: Array<any>) => ({ type, payload: payloadCreator(...args) });
 
 export const createReducer = (defatulState: any, actionHandlers: Object) =>
-  (state: any = defatulState, action: Object = {}) => {
-    if (action.type && actionHandlers[action.type]) {
-      return {
-        ...state,
-        ...(actionHandlers[action.type](action.payload, state, action)),
-      };
-    }
-    return state;
-  };
+  (state: any = defatulState, action: Object = {}) =>
+    action.type && actionHandlers[action.type] ? {
+      ...state,
+      ...(actionHandlers[action.type](action.payload, state, action)),
+    } : state;
